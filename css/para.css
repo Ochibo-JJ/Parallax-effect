@@ -1,0 +1,20 @@
+body{
+	background-color: powderblue;
+	margin: 0;
+}
+.parallax-item{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.parallax-item img{
+	max-width: 100%;
+	max-height: 100%;
+}
