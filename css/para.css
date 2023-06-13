@@ -1,4 +1,40 @@
 body{
+	background-color: black;
+	margin: 0;
+}
+.parallax-container{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+.parallax-item{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 300px;
+	height: 300px;
+}
+.leaf{
+	width: 100%;
+	height: 100%;
+	background: url("../../../../Desktop/Code/parallax-asset-1.png") no-repeat center center;
+	background-size: contain;
+	background-color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Project practice
+body{
 	background-color: powderblue;
 	margin: 0;
 }
@@ -17,4 +53,4 @@ body{
 .parallax-item img{
 	max-width: 100%;
 	max-height: 100%;
-}
+}*/
