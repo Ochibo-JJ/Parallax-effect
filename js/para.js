@@ -1,4 +1,4 @@
-var parallaxContainer = get.getElementById('parallaxContainer');
+var parallaxContainer = document.getElementById('parallaxContainer');
 for (var i = 0;i < 0; i++) {
 	//create a new element with parallax-item className
 	var item = document.createElement('div');
@@ -9,7 +9,7 @@ for (var i = 0;i < 0; i++) {
 	item.className = 'leaf';
 	item.appendChild(leaf);
 	//add element container
-	parallaxContainer.appendChild()
+	parallaxContainer.appendChild(item);
 	//random width,height,depth,rotation,background-image
 	//adjust blur on depth
 }
