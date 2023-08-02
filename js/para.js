@@ -1,41 +1,21 @@
-var parallaxContainer = document.getElementById('parallaxContainer');
-for (var i = 0;i < 0; i++) {
-	//create a new element with parallax-item className
-	var item = document.createElement('div');
-	item.className = 'leaf';
+// var parallaxContainer = document.getElementById('parallaxContainer');
+// for (var i = 0;i < 0; i++) {
+// 	//create a new element with parallax-item className
+// 	var item = document.createElement('div');
+// 	item.className = 'leaf';
 	
-	//create a new leaf for inside element with leaf className
-	var leaf = document.createElement('div');
-	item.className = 'leaf';
-	item.appendChild(leaf);
-	//add element container
-	parallaxContainer.appendChild(item);
-	//random width,height,depth,rotation,background-image
-	//adjust blur on depth
-}
+// 	//create a new leaf for inside element with leaf className
+// 	var leaf = document.createElement('div');
+// 	item.className = 'leaf';
+// 	item.appendChild(leaf);
+// 	//add element container
+// 	parallaxContainer.appendChild(item);
+// 	//random width,height,depth,rotation,background-image
+// 	//adjust blur on depth
+// }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Project practice
+ Project practice
 //html setup
 var itemsHTMLCollection = document.getElementsByClassName('parallax-item');
 var itemsArray = Array.from(itemsHTMLCollection);
@@ -151,4 +131,4 @@ window.addEventListener('resize', handleResize)
 
 updateInputs();
 updateOutputs();
-updateEachParallaxItem();*/
+updateEachParallaxItem();
